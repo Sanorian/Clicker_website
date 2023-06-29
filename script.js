@@ -2,7 +2,6 @@ let clicks_per_click=1, click_count=0, auto_click=0;
 
 function makeClick(){
     click_count+=clicks_per_click;
-    
 }
 function buying_some_clicks(count_of_buying_clicks){
     if (click_count>=20*count_of_buying_clicks){
