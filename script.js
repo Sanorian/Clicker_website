@@ -20,7 +20,7 @@ function buying_some_automatise_clicks(count_of_buying_automatise_clicks){
     }
 }
 
-var click_text = document.getElementById('mydiv');
+let click_text = document.getElementById('clicksCount');
 setInterval(function(){
     click_text.innerHTML='<h2>Your count of clicks is '+click_count+'</h2>';
 },10);
